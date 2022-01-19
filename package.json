@@ -1,5 +1,5 @@
 {
-  "name": "ratstracker",
+  "name": "skatemap",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "dev": "react-scripts start",
-    "start": "serve -s build",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env.jsdom",
     "eject": "react-scripts eject",
