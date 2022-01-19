@@ -33,7 +33,7 @@ function App() {
     <div>
     <ReactMapGL
     {...viewport}
-    mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}
+    mapboxApiAccessToken="pk.eyJ1IjoiYW50bzIyIiwiYSI6ImNrd3dteGF1MDA1Nm4ydXJyZmczbDBzeGgifQ._jesruIOH4dRx5t8cjKAJA"
      mapStyle="mapbox://styles/mapbox/dark-v10"
     onViewportChange={viewport => setViewport(viewport)}
     >
